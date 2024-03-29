@@ -1,11 +1,11 @@
 const questions=[
     {
-        question: "which is the largest animal in world?",
+        question: "What is the capital of Japan?",
         answer: [
-            {text:"Shark",correct:false},
-            {text:"Blue whale",correct:true},
-            {text:"Elephant",correct:false},
-            {text:"Giraffe",correct:false},
+            {text:"Beijing",correct:false},
+            {text:"Tokyo",correct:true},
+            {text:"Seoul",correct:false},
+            {text:"Bangkok",correct:false},
 
         ]
     },
@@ -36,6 +36,66 @@ const questions=[
             {text:"Australia",correct:true},
             {text:"Arctic",correct:false},
             {text:"Africa",correct:false},
+
+        ]
+    },
+    {
+        question: "Which is the largest island?",
+        answer: [
+            {text:"New Guinea",correct:false},
+            {text:"Andaman Nicobar",correct:false},
+            {text:"Greenland",correct:true},
+            {text:"Hawaii",correct:false},
+
+        ]
+    },
+    {
+        question: "Which is the richest country in the world?",
+        answer: [
+            {text:"Qatar",correct:true},
+            {text:"India",correct:false},
+            {text:"USA",correct:false},
+            {text:"UAE",correct:false},
+
+        ]
+    },
+    {
+        question: "Which city is called the “City of Winds”?",
+        answer: [
+            {text:"Chicago",correct:true},
+            {text:"Veliky Novgorod",correct:false},
+            {text:"USA",correct:false},
+            {text:"Washington",correct:false},
+
+        ]
+    },
+    {
+        question: "What chemical element is designated as Hg?",
+        answer: [
+            {text:"Silver",correct:false},
+            {text:"Tin",correct:false},
+            {text:"Copper",correct:false},
+            {text:"Mercury",correct:true},
+
+        ]
+    },
+    {
+        question: "Hitler's party is known as:?",
+        answer: [
+            {text:"Labour Party",correct:false},
+            {text:"Ku-Klux-Klan",correct:false},
+            {text:"Nazi Party",correct:true},
+            {text:"Democratic Party",correct:false},
+
+        ]
+    },
+    {
+        question: "Who wrote the novel 'War and Peace'?",
+        answer: [
+            {text:"Anton Chekhov",correct:false},
+            {text:"Fyodor Dostoevsky",correct:false},
+            {text:"Leo Tolstoy",correct:true},
+            {text:"Ivan Turgenev",correct:false},
 
         ]
     }
